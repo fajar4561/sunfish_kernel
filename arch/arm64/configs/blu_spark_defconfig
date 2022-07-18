@@ -1,6 +1,10 @@
 #
 # Automatically generated file; DO NOT EDIT.
+<<<<<<< HEAD
 # Linux/arm64 4.14.302 Kernel Configuration
+=======
+# Linux/arm64 4.14.276 Kernel Configuration
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -213,7 +217,10 @@ CONFIG_SIGNALFD=y
 CONFIG_TIMERFD=y
 CONFIG_EVENTFD=y
 CONFIG_BPF_SYSCALL=y
+<<<<<<< HEAD
 CONFIG_BPF_JIT_ALWAYS_ON=y
+=======
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 CONFIG_SHMEM=y
 CONFIG_AIO=y
 CONFIG_ADVISE_SYSCALLS=y
@@ -515,7 +522,10 @@ CONFIG_ARM64_ERRATUM_845719=y
 CONFIG_ARM64_ERRATUM_1024718=y
 # CONFIG_ARM64_ERRATUM_1286807 is not set
 CONFIG_ARM64_ERRATUM_1188873=y
+<<<<<<< HEAD
 CONFIG_ARM64_ERRATUM_1742098=y
+=======
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 CONFIG_CAVIUM_ERRATUM_22375=y
 CONFIG_CAVIUM_ERRATUM_23154=y
 CONFIG_CAVIUM_ERRATUM_27456=y
@@ -804,7 +814,10 @@ CONFIG_INET_AH=y
 CONFIG_INET_ESP=y
 # CONFIG_INET_ESP_OFFLOAD is not set
 CONFIG_INET_IPCOMP=y
+<<<<<<< HEAD
 CONFIG_INET_TABLE_PERTURB_ORDER=16
+=======
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 CONFIG_INET_XFRM_TUNNEL=y
 CONFIG_INET_TUNNEL=y
 CONFIG_INET_XFRM_MODE_TRANSPORT=y
@@ -870,7 +883,11 @@ CONFIG_NF_LOG_COMMON=y
 CONFIG_NF_CONNTRACK_MARK=y
 CONFIG_NF_CONNTRACK_SECMARK=y
 # CONFIG_NF_CONNTRACK_ZONES is not set
+<<<<<<< HEAD
 # CONFIG_NF_CONNTRACK_PROCFS is not set
+=======
+CONFIG_NF_CONNTRACK_PROCFS=y
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 CONFIG_NF_CONNTRACK_EVENTS=y
 # CONFIG_NF_CONNTRACK_TIMEOUT is not set
 # CONFIG_NF_CONNTRACK_TIMESTAMP is not set
@@ -1219,7 +1236,11 @@ CONFIG_XPS=y
 # CONFIG_CGROUP_NET_CLASSID is not set
 CONFIG_NET_RX_BUSY_POLL=y
 CONFIG_BQL=y
+<<<<<<< HEAD
 CONFIG_BPF_JIT=y
+=======
+# CONFIG_BPF_JIT is not set
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 # CONFIG_BPF_STREAM_PARSER is not set
 CONFIG_NET_FLOW_LIMIT=y
 CONFIG_SOCKEV_NLMCAST=y
@@ -1808,7 +1829,10 @@ CONFIG_NET_VENDOR_MELLANOX=y
 CONFIG_NET_VENDOR_MICREL=y
 # CONFIG_KS8842 is not set
 # CONFIG_KS8851 is not set
+<<<<<<< HEAD
 # CONFIG_KS8851_MLL is not set
+=======
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 # CONFIG_KSZ884X_PCI is not set
 CONFIG_NET_VENDOR_MICROCHIP=y
 # CONFIG_ENC28J60 is not set
@@ -2050,6 +2074,10 @@ CONFIG_CNSS_GENL=y
 # CONFIG_WAN is not set
 # CONFIG_VMXNET3 is not set
 # CONFIG_ISDN is not set
+<<<<<<< HEAD
+=======
+# CONFIG_NVM is not set
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 
 #
 # Input device support
@@ -2356,7 +2384,10 @@ CONFIG_DIAG_OVER_USB=y
 CONFIG_MSM_FASTCVPD=y
 CONFIG_MSM_ADSPRPC=y
 CONFIG_MSM_RDBG=m
+<<<<<<< HEAD
 CONFIG_RANDOM_TRUST_BOOTLOADER=y
+=======
+>>>>>>> 1971136b8 (defconfig: add blu_spark base config)
 
 #
 # Gasket devices
