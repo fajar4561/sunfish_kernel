@@ -12,21 +12,6 @@
  */
 #include <dt-bindings/thermal/thermal.h>
 
-&thermal_zones {
-    pm6150-tz {
-        cooling-maps {
-            trip0_bat {
-                trip = <&pm6150_trip0>;
-                cooling-device = <&pm6150_charger (THERMAL_MAX_LIMIT-1) (THERMAL_MAX_LIMIT-1)>;
-            };
-            trip1_bat {
-                trip = <&pm6150_trip1>;
-                cooling-device = <&pm6150_charger THERMAL_MAX_LIMIT THERMAL_MAX_LIMIT>;
-            };
-        };
-    };
-};
-
 	pm6150l-tz {
 		cooling-maps {
 			trip0_cpu0 {
